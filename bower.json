@@ -1,0 +1,20 @@
+{
+  "name": "its-spelled-accessibility",
+  "homepage": "https://github.com/ThirstyHead/its-spelled-accessibility",
+  "authors": [
+    "Scott Davis <scott@thirstyhead.com>"
+  ],
+  "description": "PRESENTATION: It's Spelled 'Accessibility', not 'Disability'",
+  "main": "index.html",
+  "license": "cc-by-4.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "talk-o-vision": "thirstyhead/talk-o-vision#^0.4.0"
+  }
+}
