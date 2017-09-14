@@ -37,3 +37,11 @@ http://accessibility.co.uk/wiki/situational-disability
 https://userway.org/blog/how-situational-disabilities-impact-us-all
 
 https://www.apple.com/accessibility/
+
+https://www.w3.org/WAI/intro/wcag.php#whatis2
+
+https://www.w3.org/TR/UNDERSTANDING-WCAG20/intro.html#introduction-fourprincs-head
+
+https://www.w3.org/WAI/WCAG20/glance/Overview
+
+https://www.w3.org/TR/WCAG20-TECHS/
