@@ -45,3 +45,13 @@ https://www.w3.org/TR/UNDERSTANDING-WCAG20/intro.html#introduction-fourprincs-he
 https://www.w3.org/WAI/WCAG20/glance/Overview
 
 https://www.w3.org/TR/WCAG20-TECHS/
+
+http://www.huffingtonpost.com/2013/09/06/illiteracy-rate_n_3880355.html
+
+https://www.w3.org/standards/webdesign/accessibility
+
+http://a11yproject.com/
+
+http://pa11y.org/
+
+https://open-indy.github.io/Koa11y/
