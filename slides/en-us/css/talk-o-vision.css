@@ -137,6 +137,10 @@ ul li{
   color: var(--theme-foreground-color);
 }
 
+video{
+  height: auto;
+  width: 30%;
+}
 
 /**************************
   Custom Classes
