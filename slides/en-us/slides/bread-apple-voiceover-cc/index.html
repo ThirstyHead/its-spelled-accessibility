@@ -1,0 +1,33 @@
+      <section class="theme-invert">
+        <h2 hidden aria-hidden="false">WebVTT</h2>
+        <figure>
+my-captions.vtt
+<pre><code>
+WEBVTT
+Kind: captions
+Language: en-US
+
+00:00:05.000 --&gt; 00:00:12.000
+[Triple-click]
+
+00:00:17.000 --&gt; 00:00:25.000
+[Two fingers - spin 'invisible' knob on screen]
+</code></pre>
+
+index.html
+<pre><code>
+&lt;video src="video.mov" controls&gt;
+  &lt;track kind="captions" 
+         src="my-captions.vtt" 
+         srclang="en" 
+         label="English" &gt;
+&lt;/video&gt;
+</code></pre>
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>

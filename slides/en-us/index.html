@@ -1,0 +1,961 @@
+<html lang="en"><head>
+    <title>It's Spelled 'Accessibility', not 'Disability'</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,
+                                   initial-scale=1,
+                                   user-scalable=yes">
+    <meta name="author" content="Scott Davis <scott@thirstyhead.com>">
+    <meta name="description" content="">
+    <meta name="keywords" content="html a11y universal design">
+
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/talk-o-vision.css">
+
+    <style>
+      .main-title{
+        background: url('slides/title/keyboard-a11y.jpg') no-repeat center center;
+        background-size: contain;
+      }
+
+      .banner{
+        background-color: var(--theme-foreground-color);
+        opacity: 0.7;
+        top: 5vh;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 hidden="" aria-hidden="false"></h1>
+    <main class="slideshow">
+      <section class="main-title" id="1" data-src="slides/title">
+        <h2 hidden="" aria-hidden="false">It's Spelled 'Accessibility', not 'Disability'</h2>
+        <figure>
+          <div class="banner">
+            It's Spelled 'Accessibility', not 'Disability'
+            <div class="subtitle">
+            </div>
+            <div class="bio">
+              <br>
+              Scott Davis<br>
+              <a href="mailto:scott@thirstyhead.com">scott@thirstyhead.com</a><br>
+              <a href="https://twitter.com/scottdavis99">@scottdavis99</a>
+            </div>
+          </div>
+          <figcaption>
+            <p>
+            </p>
+            <p>
+              Presented by Scott Davis. His email address is
+              scott@thirstyhead.com. His Twitter handle is @scottdavis99.
+            </p>
+          </figcaption>
+        </figure>
+      </section>
+      <!-- <section data-src="slides/instructions"></section> -->
+      <section class="theme-invert" id="2" data-src="slides/bio">
+        <h2 hidden="" aria-hidden="false">Biography</h2>
+        <audio src="slides/bio/audio.mp3"></audio>
+        <figure>
+          <img src="slides/bio/scott-davis-bio.png" alt="Scott Davis' Biography" class="contain">
+
+          <figcaption>
+           <p>Hi! My name is Scott Davis. I'm currently a Principle Engineer
+             with ThoughtWorks. Before that, I ran a software consultancy out
+             of Denver, Colorado called ThirstyHead. </p>
+
+           <p>I've been writing about web development for years -- articles
+             for IBM, books for O'Reilly and the Pragmatic Bookshelf, and most
+             recently videos for O'Reilly as well.</p>
+          </figcaption>
+        </figure>
+      </section>
+      <section class="theme-invert" id="3" data-src="slides/a11y-definition">
+        <h2 hidden="" aria-hidden="false">a11y Definition</h2>
+        <figure>
+          <img src="slides/a11y-definition/a11y-definition.png" alt="The definition of a11y" class="contain" data-src="">
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section class="theme-invert" id="4" data-src="slides/web-a11y-duckduckgo">
+        <h2 hidden="" aria-hidden="false">Web a11y at DuckDuckGo</h2>
+        <figure>
+          <img src="slides/web-a11y-duckduckgo/web-a11y-duckduckgo.png" alt="Web a11y web search" class="contain" data-src="">
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="5" data-src="slides/why-bother-with-a11y">
+        <h2 hidden="" aria-hidden="false">Why Bother with a11y?</h2>
+        <figure>
+          <a href="https://24ways.org/2013/why-bother-with-accessibility/">
+          <img src="slides/why-bother-with-a11y/why-bother-with-a11y.png" alt="Why bother with a11y?" class="contain" data-src="https://24ways.org/2013/why-bother-with-accessibility/<Paste>">
+          </a>
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="6" data-src="slides/universal-design-project">
+        <h2 hidden="" aria-hidden="false">Universal Design Project</h2>
+        <figure>
+          <a href="https://universaldesign.org/">
+          <img src="slides/universal-design-project/universal-design-project.png" alt="Universal Design Project" class="contain" data-src="https://universaldesign.org/">
+          </a>
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="7" data-src="slides/timbl-universality">
+        <h2 hidden="" aria-hidden="false">TimBL on Universality</h2>
+        <figure>
+          <img src="slides/timbl-universality/timbl-universality.png" alt="TimBL on Universality" class="contain" data-src="">
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="8" data-src="slides/html-5.2-spec">
+        <h2 hidden="" aria-hidden="false">HTML 5.2 Spec</h2>
+        <figure>
+          <a href="https://www.w3.org/TR/html52/">
+          <img src="slides/html-5.2-spec/html-5.2-spec.png" alt="HTML 5.2 Spec" class="contain" data-src="https://www.w3.org/TR/html52/">
+          </a>
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="9" data-src="slides/the-paciello-group">
+        <h2 hidden="" aria-hidden="false">The Paciello Group</h2>
+        <figure>
+          <a href="https://www.paciellogroup.com/about/">
+          <img src="slides/the-paciello-group/the-paciello-group.png" alt="The Paciello Group" class="contain" data-src="https://www.paciellogroup.com/about/">
+          </a>
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="10" data-src="slides/blank">
+        <h2 hidden="" aria-hidden="false"></h2>
+        <figure>
+&nbsp;
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+
+      <section id="11" data-src="slides/curbcut">
+        <h2 hidden="" aria-hidden="false">Curb Cut</h2>
+        <figure>
+          <a href="https://www.columbian.com/news/2016/aug/10/curb-cuts-southeast-park-crest-avenue/">
+          <img src="slides/curbcut/curbcut.jpg" alt="Curb Cut" class="contain" data-src="https://www.columbian.com/news/2016/aug/10/curb-cuts-southeast-park-crest-avenue/">
+          </a>
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="12" data-src="slides/curbcut-2">
+        <h2 hidden="" aria-hidden="false">Curb Cut</h2>
+        <figure>
+          <a href="https://www.columbian.com/news/2016/aug/10/curb-cuts-southeast-park-crest-avenue/">
+          <img src="slides/curbcut-2/curbcut-2.jpg" alt="Curb Cut" class="contain" data-src="https://www.columbian.com/news/2016/aug/10/curb-cuts-southeast-park-crest-avenue/">
+          </a>
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="13" data-src="slides/curbcut-original">
+        <h2 hidden="" aria-hidden="false">Curb Cut Original</h2>
+        <figure>
+          <a href="https://www.encorekalamazoo.com/creating-curb-cuts">
+          <img src="slides/curbcut-original/curbcut-original.jpg" alt="Curb Cut Original" class="contain" data-src="https://www.encorekalamazoo.com/creating-curb-cuts">
+          </a>
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="14" data-src="slides/curbcut-effect">
+        <h2 hidden="" aria-hidden="false">The Curb Cut Effect</h2>
+        <figure>
+          <a href="https://ssir.org/articles/entry/the_curb_cut_effect">
+          <img src="slides/curbcut-effect/curbcut-effect.png" alt="The Curb Cut Effect" class="contain" data-src="https://ssir.org/articles/entry/the_curb_cut_effect">
+          </a>
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="15" data-src="slides/a11y-improves-everyones-experience">
+        <h2 hidden="" aria-hidden="false">a11y Improves Everyone's Experience</h2>
+        <figure>
+          <p class="embiggen"><span class="highlight">Accessibility improves<br>everyone's experience,</span><br>
+          not just those with a disability.</p>
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="16" data-src="slides/cu-a11y-bad">
+        <h2 hidden="" aria-hidden="false">CU A11y Bad</h2>
+        <figure>
+          <a href="https://www.colorado.edu/accessibility/universal-design">https://www.colorado.edu/<br>accessibility/universal-design</a><br>
+          <a href="https://www.colorado.edu/accessibility/universal-design">
+          <img src="slides/cu-a11y-bad/cu-a11y-bad.png" alt="CU A11y Bad" class="contain-with-header" data-src="https://www.colorado.edu/accessibility/universal-design">
+          </a>
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="17" data-src="slides/cu-a11y-better">
+        <h2 hidden="" aria-hidden="false">CU A11y Better</h2>
+        <figure>
+          <a href="https://www.colorado.edu/accessibility/universal-design">https://www.colorado.edu/<br>accessibility/universal-design</a><br>
+          <a href="https://www.colorado.edu/accessibility/universal-design">
+          <img src="slides/cu-a11y-better/cu-a11y-better.png" alt="CU A11y Better" class="contain-with-header" data-src="https://www.colorado.edu/accessibility/universal-design">
+          </a>
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="18" data-src="slides/king-sooper">
+        <h2 hidden="" aria-hidden="false">King Sooper</h2>
+        <figure>
+          <img src="slides/king-sooper/king-sooper.jpg" alt="King Sooper" class="contain" data-src="">
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="19" data-src="slides/ada-winn-dixie">
+        <h2 hidden="" aria-hidden="false">ADA Winn Dixie</h2>
+        <figure>
+          <a href="https://www.lflegal.com/2017/06/winn-dixie/">
+          <img src="slides/ada-winn-dixie/ada-winn-dixie.png" alt="ADA Winn Dixie" class="contain" data-src="https://www.lflegal.com/2017/06/winn-dixie/">
+          </a>
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="20" data-src="slides/ada-website-lawsuits-2018">
+        <h2 hidden="" aria-hidden="false">ADA Website Lawsuits 2018</h2>
+        <figure>
+          <a href="https://www.adatitleiii.com/2018/07/website-access-and-other-ada-title-iii-lawsuits-hit-record-numbers/">
+          <img src="slides/ada-website-lawsuits-2018/ada-website-lawsuits-2018.png" alt="ada-website-lawsuits-2018" class="contain" data-src="https://www.adatitleiii.com/2018/07/website-access-and-other-ada-title-iii-lawsuits-hit-record-numbers/">
+          </a>
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="21" data-src="slides/ada-blick-art">
+        <h2 hidden="" aria-hidden="false">ADA Blick Art</h2>
+        <figure>
+          <a href="https://www.3playmedia.com/2018/10/18/2018-website-ada-cases/">
+          <img src="slides/ada-blick-art/ada-blick-art.png" alt="ADA Blick Art" class="contain" data-src="https://www.3playmedia.com/2018/10/18/2018-website-ada-cases/">
+          </a>
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="22" data-src="slides/a11y-pink-spash-screen">
+        <h2 hidden="" aria-hidden="false">A11y Pink Splash Screen</h2>
+        <figure>
+          <img src="slides/a11y-pink-spash-screen/a11y-pink-spash-screen.png" alt="A11y" class="contain" data-src="">
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="23" data-src="slides/blank">
+        <h2 hidden="" aria-hidden="false"></h2>
+        <figure>
+&nbsp;
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+
+      <section id="24" data-src="slides/alan-perlis-not-worth-knowing">
+        <h2 hidden="" aria-hidden="false">Alan Perlis - Not Worth Knowing</h2>
+        <figure>
+          <img src="slides/alan-perlis-not-worth-knowing/alan-perlis-not-worth-knowing.jpg" alt="Alan Perlis - Not Worth Knowing" class="contain" data-src="">
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="25" data-src="slides/html-spec-semantics">
+        <h2 hidden="" aria-hidden="false">HTML Spec - Semantics</h2>
+        <figure>
+          <a href="https://www.w3.org/TR/html52/introduction.html#background">
+          <img src="slides/html-spec-semantics/html-spec-semantics.png" alt="HTML Spec - Semantics" class="contain" data-src="https://www.w3.org/TR/html52/introduction.html#background">
+          </a>
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="26" data-src="slides/semantics">
+        <h2 hidden="" aria-hidden="false">Semantics</h2>
+        <figure>
+          <img src="slides/semantics/semantics.png" alt="Semantics" class="contain" data-src="">
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="27" data-src="slides/html-spec-toc">
+        <h2 hidden="" aria-hidden="false">HTML Spec - TOC</h2>
+        <figure>
+          <a href="https://www.w3.org/TR/html52/introduction.html#structure-of-this-specification">
+          <img src="slides/html-spec-toc/html-spec-toc.png" alt="HTML Spec - TOC" class="contain" data-src="https://www.w3.org/TR/html52/introduction.html#structure-of-this-specification">
+          </a>
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section class="theme-invert" id="28" data-src="slides/bread-html-4-html">
+        <h2 aria-hidden="false">Bread Recipe in basic HTML</h2>
+        <figure>
+<pre><code>
+    &lt;h1&gt;No Knead Bread&lt;/h1&gt;
+    &lt;p&gt;No kneading required, 4 simple ingredients, baked 
+    in a Dutch Oven. The result is simple perfection, hands 
+    down the best bread you'll ever eat!&lt;/p&gt;
+
+    &lt;h2&gt;Ingredients&lt;/h2&gt;
+    &lt;ul&gt;
+      &lt;li&gt;3 cups all-purpose flour&lt;/li&gt;
+      &lt;li&gt;1 3/4 tsp salt&lt;/li&gt;
+      &lt;li&gt;1/2 tsp active dry yeast&lt;/li&gt;
+      &lt;li&gt;1 1/2 cups water room temperature&lt;/li&gt;
+    &lt;/ul&gt;
+</code></pre>
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="29" data-src="slides/bread-html-4-rendered">
+        <h2 hidden="" aria-hidden="false">Bread Recipe - Rendered</h2>
+        <figure>
+          <img src="slides/bread-html-4-rendered/bread-html-4-rendered.png" alt="Bread Recipe - Rendered" class="contain" data-src="">
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="30" data-src="slides/html-spec-h1">
+        <h2 hidden="" aria-hidden="false">HTML Spec - H1</h2>
+        <figure>
+          <a href="https://www.w3.org/TR/html52/sections.html#the-h1-h2-h3-h4-h5-and-h6-elements">
+          <img src="slides/html-spec-h1/html-spec-h1.png" alt="HTML Spec - H1" class="contain" data-src="https://www.w3.org/TR/html52/sections.html#the-h1-h2-h3-h4-h5-and-h6-elements">
+          </a>
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="31" data-src="slides/html-spec-h1-2">
+        <h2 hidden="" aria-hidden="false">HTML Spec - H1</h2>
+        <figure>
+          <a href="https://www.w3.org/TR/html52/sections.html#the-h1-h2-h3-h4-h5-and-h6-elements">
+          <img src="slides/html-spec-h1-2/html-spec-h1-2.png" alt="HTML Spec - H1" class="contain" data-src="https://www.w3.org/TR/html52/sections.html#the-h1-h2-h3-h4-h5-and-h6-elements">
+          </a>
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="32" data-src="slides/bread-css">
+        <h2 aria-hidden="false">Styling vs Semantics</h2>
+        <figure>
+          <p>If I use CSS and a &lt;style&gt; element to make our &lt;h2&gt; elements appear larger than our &lt;h1&gt;, does it change the <span class="highlight">semantics</span> as well?</p>
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section class="theme-invert" id="33" data-src="slides/bread-css-css">
+        <h2 hidden="" aria-hidden="false">Bread CSS</h2>
+        <figure>
+<pre><code>
+&lt;head&gt;
+  &lt;style&gt;
+    h1{
+      font-size: 1em;
+    }
+
+    h2{
+      font-size: 2em;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+  &lt;h1&gt;No Knead Bread&lt;/h1&gt;
+  [snip]
+</code></pre>
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="34" data-src="slides/bread-css-rendered">
+        <h2 hidden="" aria-hidden="false">Bread CSS</h2>
+        <figure>
+          <img src="slides/bread-css-rendered/bread-css-rendered.png" alt="Bread CSS" class="contain" data-src="">
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="35" data-src="slides/html-spec-h1-3">
+        <h2 hidden="" aria-hidden="false">HTML Spec - H1</h2>
+        <figure>
+          <a href="https://www.w3.org/TR/html52/sections.html#the-h1-h2-h3-h4-h5-and-h6-elements">
+            <img src="slides/html-spec-h1-3/html-spec-h1-3.png" alt="HTML Spec - H1" class="contain" data-src="https://www.w3.org/TR/html52/sections.html#the-h1-h2-h3-h4-h5-and-h6-elements">
+          </a>
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="36" data-src="slides/apple-voiceover">
+        <h2 hidden="" aria-hidden="false">Apple VoiceOver</h2>
+        <figure>
+          <a href="https://www.apple.com/accessibility/iphone/vision/">
+          <img src="slides/apple-voiceover/apple-voiceover.png" alt="Apple VoiceOver" class="contain" data-src="https://www.apple.com/accessibility/iphone/vision/<Paste>">
+          </a>
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="37" data-src="slides/bread-apple-voiceover">
+        <h2 hidden="" aria-hidden="false">Bread - Apple VoiceOver</h2>
+        <figure>
+          <video src="/slides/en-us/slides/bread-apple-voiceover/bread-apple-voiceover.mov" controls="">
+            <track kind="captions" src="/slides/en-us/slides/bread-apple-voiceover/captions.vtt" srclang="en" label="English">
+          </video>
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section class="theme-invert" id="38" data-src="slides/bread-apple-voiceover-cc">
+        <h2 hidden="" aria-hidden="false">WebVTT</h2>
+        <figure>
+my-captions.vtt
+<pre><code>
+WEBVTT
+Kind: captions
+Language: en-US
+
+00:00:05.000 --&gt; 00:00:12.000
+[Triple-click]
+
+00:00:17.000 --&gt; 00:00:25.000
+[Two fingers - spin 'invisible' knob on screen]
+</code></pre>
+
+index.html
+<pre><code>
+&lt;video src="video.mov" controls&gt;
+  &lt;track kind="captions" 
+         src="my-captions.vtt" 
+         srclang="en" 
+         label="English" &gt;
+&lt;/video&gt;
+</code></pre>
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section class="theme-invert" id="39" data-src="slides/bread-js">
+        <h2 hidden="" aria-hidden="false">Bread JS</h2>
+        <figure>
+<pre><code>
+&lt;script&gt;
+  window.addEventListener('load', init);
+
+  function init(){
+    let b = document.querySelector('button');
+    b.addEventListener('click', readIntro);
+  }
+
+  function readIntro(event){
+    let paragraphs = document.querySelectorAll('p');
+    for(let p of paragraphs){
+      let msg = new SpeechSynthesisUtterance(p.innerText);
+      window.speechSynthesis.speak(msg);
+    }
+  }
+&lt;/script&gt;
+&lt;button&gt;Read&lt;/button&gt;
+</code></pre>
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="40" data-src="slides/tensorflow-posenet">
+        <h2 hidden="" aria-hidden="false">Tensorflow Posenet</h2>
+        <figure>
+          <a href="https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5">
+          <img src="slides/tensorflow-posenet/tensorflow-posenet.png" alt="Tensorflow Posenet" class="contain" data-src="https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5">
+          </a>
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="41" data-src="slides/tensorflow-posenet-alexa">
+        <h2 hidden="" aria-hidden="false">Tensorflow Posenet Alexa</h2>
+        <figure>
+          <a href="https://medium.com/tensorflow/getting-alexa-to-respond-to-sign-language-using-your-webcam-and-tensorflow-js-735ccc1e6d3f">
+          <img src="slides/tensorflow-posenet-alexa/tensorflow-posenet-alexa.png" alt="Tensorflow Posenet Alexa" class="contain" data-src="https://medium.com/tensorflow/getting-alexa-to-respond-to-sign-language-using-your-webcam-and-tensorflow-js-735ccc1e6d3f">
+          </a>
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="42" data-src="slides/blank">
+        <h2 hidden="" aria-hidden="false"></h2>
+        <figure>
+&nbsp;
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+
+      <section id="43" data-src="slides/browser-market-share-mar-2019">
+        <h2 hidden="" aria-hidden="false">Browser Market Share - Mar 2019</h2>
+        <figure>
+          <a href="https://www.w3counter.com/globalstats.php">
+          <img src="slides/browser-market-share-mar-2019/browser-market-share-mar-2019.png" alt="Browser Market Share - Mar 2019" class="contain" data-src="https://www.w3counter.com/globalstats.php">
+          </a>
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="44" data-src="slides/browser-market-share-mar-2019-2">
+        <h2 hidden="" aria-hidden="false">Browser Market Share - Mar 2019</h2>
+        <figure>
+          <a href="https://www.w3counter.com/globalstats.php">
+          <img src="slides/browser-market-share-mar-2019-2/browser-market-share-mar-2019-2.png" alt="Browser Market Share - Mar 2019" class="contain" data-src="https://www.w3counter.com/globalstats.php">
+          </a>
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="45" data-src="slides/world-disability-percentage">
+        <h2 hidden="" aria-hidden="false">World Disability Percentage</h2>
+        <figure>
+          <a href="https://www.worldbank.org/en/topic/disability">
+          <img src="slides/world-disability-percentage/world-disability-percentage.png" alt="World Disability Percentage" class="contain" data-src="https://www.worldbank.org/en/topic/disability">
+          </a>
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="46" data-src="slides/a11y-webaim-analysis">
+        <h2 hidden="" aria-hidden="false">A11y WebAim Analysis</h2>
+        <figure>
+          <a href="https://webaim.org/projects/million/">
+          <img src="slides/a11y-webaim-analysis/a11y-webaim-analysis.png" alt="A11y WebAim Analysis" class="contain" data-src="https://webaim.org/projects/million/">
+          </a>
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="47" data-src="slides/a11y-webaim-analysis-2">
+        <h2 hidden="" aria-hidden="false">A11y WebAim Analysis</h2>
+        <figure>
+          <a href="https://webaim.org/projects/million/">
+          <img src="slides/a11y-webaim-analysis-2/a11y-webaim-analysis-2.png" alt="A11y WebAim Analysis" class="contain" data-src="https://webaim.org/projects/million/">
+          </a>
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="48" data-src="slides/a11y-webaim-analysis-3">
+        <h2 hidden="" aria-hidden="false">A11y WebAim Analysis</h2>
+        <figure>
+          <a href="https://webaim.org/projects/million/">
+          <img src="slides/a11y-webaim-analysis-3/foo.png" alt="A11y WebAim Analysis" class="contain" data-src="https://webaim.org/projects/million/">
+          </a>
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="49" data-src="slides/a11y-webaim-analysis-4">
+        <h2 hidden="" aria-hidden="false">A11y WebAim Analysis</h2>
+        <figure>
+          <a href="https://webaim.org/projects/million/">
+          <img src="slides/a11y-webaim-analysis-4/a11y-webaim-analysis-4.png" alt="A11y WebAim Analysis" class="contain" data-src="https://webaim.org/projects/million/">
+          </a>
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="50" data-src="slides/mdn-span">
+        <h2 hidden="" aria-hidden="false">MDN - Span</h2>
+        <figure>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span">
+          <img src="slides/mdn-span/mdn-span.png" alt="MDN - Span" class="contain" data-src="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span">
+          </a>
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="51" data-src="slides/a11y-webaim-analysis-7">
+        <h2 hidden="" aria-hidden="false">A11y WebAim Analysis</h2>
+        <figure>
+          <a href="https://webaim.org/projects/million/">
+          <img src="slides/a11y-webaim-analysis-7/a11y-webaim-analysis-7.png" alt="A11y WebAim Analysis" class="contain" data-src="https://webaim.org/projects/million/">
+          </a>
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="52" data-src="slides/html-spec-semantics">
+        <h2 hidden="" aria-hidden="false">HTML Spec - Semantics</h2>
+        <figure>
+          <a href="https://www.w3.org/TR/html52/introduction.html#background">
+          <img src="slides/html-spec-semantics/html-spec-semantics.png" alt="HTML Spec - Semantics" class="contain" data-src="https://www.w3.org/TR/html52/introduction.html#background">
+          </a>
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="53" data-src="slides/timbl-universality">
+        <h2 hidden="" aria-hidden="false">TimBL on Universality</h2>
+        <figure>
+          <img src="slides/timbl-universality/timbl-universality.png" alt="TimBL on Universality" class="contain" data-src="">
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="54" data-src="slides/blank">
+        <h2 hidden="" aria-hidden="false"></h2>
+        <figure>
+&nbsp;
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="theme-invert" id="55" data-src="slides/a11y-definition">
+        <h2 hidden="" aria-hidden="false">a11y Definition</h2>
+        <figure>
+          <img src="slides/a11y-definition/a11y-definition.png" alt="The definition of a11y" class="contain" data-src="">
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="56" data-src="slides/why-bother-with-a11y">
+        <h2 hidden="" aria-hidden="false">Why Bother with a11y?</h2>
+        <figure>
+          <a href="https://24ways.org/2013/why-bother-with-accessibility/">
+          <img src="slides/why-bother-with-a11y/why-bother-with-a11y.png" alt="Why bother with a11y?" class="contain" data-src="https://24ways.org/2013/why-bother-with-accessibility/<Paste>">
+          </a>
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="57" data-src="slides/universal-design-project">
+        <h2 hidden="" aria-hidden="false">Universal Design Project</h2>
+        <figure>
+          <a href="https://universaldesign.org/">
+          <img src="slides/universal-design-project/universal-design-project.png" alt="Universal Design Project" class="contain" data-src="https://universaldesign.org/">
+          </a>
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section id="58" data-src="slides/a11y-pink-spash-screen">
+        <h2 hidden="" aria-hidden="false">A11y Pink Splash Screen</h2>
+        <figure>
+          <img src="slides/a11y-pink-spash-screen/a11y-pink-spash-screen.png" alt="A11y" class="contain" data-src="">
+
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
+      <section class="main-title" id="59" data-src="slides/title">
+        <h2 hidden="" aria-hidden="false">It's Spelled 'Accessibility', not 'Disability'</h2>
+        <figure>
+          <div class="banner">
+            It's Spelled 'Accessibility', not 'Disability'
+            <div class="subtitle">
+            </div>
+            <div class="bio">
+              <br>
+              Scott Davis<br>
+              <a href="mailto:scott@thirstyhead.com">scott@thirstyhead.com</a><br>
+              <a href="https://twitter.com/scottdavis99">@scottdavis99</a>
+            </div>
+          </div>
+          <figcaption>
+            <p>
+            </p>
+            <p>
+              Presented by Scott Davis. His email address is
+              scott@thirstyhead.com. His Twitter handle is @scottdavis99.
+            </p>
+          </figcaption>
+        </figure>
+      </section>
+    </main>
+
+    <script src="js/talk-o-vision.js"></script>
+  
+
+</body></html>

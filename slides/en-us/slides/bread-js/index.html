@@ -1,0 +1,30 @@
+      <section class="theme-invert">
+        <h2 hidden aria-hidden="false">Bread JS</h2>
+        <figure>
+<pre><code>
+&lt;script&gt;
+  window.addEventListener('load', init);
+
+  function init(){
+    let b = document.querySelector('button');
+    b.addEventListener('click', readIntro);
+  }
+
+  function readIntro(event){
+    let paragraphs = document.querySelectorAll('p');
+    for(let p of paragraphs){
+      let msg = new SpeechSynthesisUtterance(p.innerText);
+      window.speechSynthesis.speak(msg);
+    }
+  }
+&lt;/script&gt;
+&lt;button&gt;Read&lt;/button&gt;
+</code></pre>
+          <figcaption>
+            <p>
+            
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>

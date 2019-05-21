@@ -13,6 +13,10 @@ html {
   box-sizing: inherit;
 }
 
+::-webkit-scrollbar{
+  display:none;
+}
+
 /**************************
   Theme
 ***************************/
@@ -137,6 +141,10 @@ ul li{
   color: var(--theme-foreground-color);
 }
 
+video{
+  height: auto;
+  width: 30%;
+}
 
 /**************************
   Custom Classes
@@ -194,6 +202,10 @@ ul li{
 
 .display{
   display: block;
+}
+
+.embiggen{
+  font-size: 2em;
 }
 
 .half{
